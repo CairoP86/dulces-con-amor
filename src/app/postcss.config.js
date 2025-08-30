@@ -1,6 +1,7 @@
+// postcss.config.mjs
 export default {
   plugins: {
-    "@tailwindcss/postcss": {}, 
+    "@tailwindcss/postcss": {}, // ✅ plugin correcto para Next.js 15
     autoprefixer: {},
   },
 }
